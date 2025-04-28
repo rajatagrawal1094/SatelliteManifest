@@ -1,6 +1,6 @@
 # Creating and Uploading Satellite Manifest
 
-== Introducing Manifest
+## Introducing Manifest
 
 A manifest is a set of encrypted files containing information about your subscriptions.
 
@@ -11,7 +11,7 @@ You can use a manifest to import your subscriptions into Red Hat Satellite. Afte
 
 An authorized Satellite user on a connected network can create, export, delete, and modify manifests from Red Hat Hybrid Cloud Console.
 
-=== Prerequisites to create a Manifest from Red Hat Hybrid Cloud Console
+### Prerequisites to create a Manifest from Red Hat Hybrid Cloud Console
 
 - You are logged in to the Red Hat Hybrid Cloud Console.
 
@@ -28,7 +28,7 @@ An authorized Satellite user on a connected network can create, export, delete, 
 > [!NOTE]
 > I will be demonstrating creating a manifest using Red Hat Customer Portal.
 
-== Creating a Manifest 
+## Creating a Manifest 
 
 Login to the [Hybrid Cloud Console](https://console.redhat.com)
 
