@@ -45,13 +45,13 @@ Click Subscription Allocations
 
 ![allocation](/images/3-allocation.png)
 
-Click New Subscription Allocation
+Click New Subscription Allocation button
 
 ![new](/images/4-new.png)
 
 Give the manifest a name and chose the version of Satellite that will be used within the manifest, then click on Create button
 
-~[manifest_name](/images/5-manifest_name.png)
+![manifest_name](/images/5-manifest_name.png)
 
 You will be able to see the below output once the manifest is successfully created
 
@@ -85,11 +85,13 @@ Enter Credentials and click Log In button
 
 ![dashboard](/images/11-dashboard.png)
 
-Click on the **Content > Subscriptions > Import a Manifest**
+Click on the **Content > Subscriptions**
+
+Click **Import a Manifest** button
 
 ![import](/images/12-import.png)
 
-Click on browse and select the downloaded Manifest from the downloaded path to start importing the Manifest
+Click on browse and select the downloaded Manifest from the path to start importing the Manifest
 
 ![browse](/images/13-browse.png)
 
