@@ -25,7 +25,7 @@ An authorized Satellite user on a connected network can create, export, delete, 
 > - If you do not have an active Satellite subscription and you have at least one existing subscription manifest for your account, then you can view and export your existing manifests, but the Create new manifest button is inactive until you reactivate your Satellite subscription.
 > - If you do not have an active Satellite subscription and you have no existing subscription manifests for your account, then you can click the Contact button to receive help from Red Hat.
 
-## Creating a Manifest using [Red Hat Customer Portal](https://access.redhat.com) 
+## Creating a Manifest using Red Hat Customer Portal 
 
 > [!WARNING]
 > Only a user with Org Admin (or organization administrator) role can create and manage the subscription and export the manifest.
@@ -37,19 +37,19 @@ Login to the [Red Hat Customer Portal](https://access.redhat.com) with an accoun
 
 ![customer_portal](/images/1-portal.png)
 
-Click Subscriptions on the top left corner
+Click **Subscriptions** on the top left corner
 
 ![subscription](/images/2-subscription.png)
 
-Click Subscription Allocations
+Click **Subscription Allocations**
 
 ![allocation](/images/3-allocation.png)
 
-Click New Subscription Allocation button
+Click **New Subscription Allocation** button
 
 ![new](/images/4-new.png)
 
-Give the manifest a name and chose the version of Satellite that will be used within the manifest, then click on Create button
+Give the manifest a **name** and choose the **type** (version of Satellite) that will be used within the manifest, then click on **Create** button
 
 ![manifest_name](/images/5-manifest_name.png)
 
@@ -57,11 +57,11 @@ You will be able to see the below output once the manifest is successfully creat
 
 ![success](/images/6-success.png)
 
-Click on Subscriptions to add some subscriptions to your manifest
+Click on **Subscriptions** to add some subscriptions to your manifest and then click on **Add Subscriptions** button to see the available subscriptions that can be added to your manifest.
 
 ![add](/images/7-add.png)
 
-Click Add Subscriptions to see the available subscriptions that can be added to your manifest and select the number of Product Entitlements for the Red Hat Product that you want to add to your Manifest. Scroll down to the bottom of the page and click Submit button.
+Select the number of **Entitlements** for the Red Hat Product that you want to add to your Manifest. Scroll down to the bottom of the page and click Submit button.
 
 > [!NOTE]
 > You can use filter to search or manually browse the required subscriptions.
@@ -85,13 +85,11 @@ Enter Credentials and click Log In button
 
 ![dashboard](/images/11-dashboard.png)
 
-Click on the **Content > Subscriptions**
-
-Click **Import a Manifest** button
+Click on the **Content > Subscriptions > Import a Manifest**
 
 ![import](/images/12-import.png)
 
-Click on browse and select the downloaded Manifest from the path to start importing the Manifest
+Click on **browse** and select the downloaded Manifest from the path to start importing the Manifest
 
 ![browse](/images/13-browse.png)
 
