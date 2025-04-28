@@ -9,11 +9,11 @@ You can use a manifest to import your subscriptions into Red Hat Satellite. Afte
 > [!NOTE]
 > Users on a connected network create and manage their subscription manifests on the [Red Hat Hybrid Cloud Console](https://console.redhat.com), however, users on a disconnected network must use the [Red Hat Customer Portal](https://access.redhat.com).
 
-An authorized Satellite user on a connected network can create, export, delete, and modify manifests from Red Hat Hybrid Cloud Console.
+An authorized Satellite user on a connected network can create, export, delete, and modify manifests from [Red Hat Hybrid Cloud Console](https://console.redhat.com).
 
 ### Prerequisites to create a Manifest from Red Hat Hybrid Cloud Console
 
-- You are logged in to the Red Hat Hybrid Cloud Console.
+- You are logged in to the [Red Hat Hybrid Cloud Console](https://console.redhat.com).
 
 - You are connected to a Red Hat Satellite Server.
 
@@ -26,7 +26,7 @@ An authorized Satellite user on a connected network can create, export, delete, 
 > - If you do not have an active Satellite subscription and you have no existing subscription manifests for your account, then you can click the Contact button to receive help from Red Hat.
 
 > [!NOTE]
-> I will be demonstrating creating a manifest using Red Hat Customer Portal.
+> I will be demonstrating creating a manifest using [Red Hat Customer Portal](https://access.redhat.com).
 
 ## Creating a Manifest 
 
