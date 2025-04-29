@@ -19,7 +19,7 @@ An authorized Satellite user on a connected network can create, export, delete, 
 
 - You have Red Hat Satellite 6 or later.
 
-- You have the Subscriptions administrator role in the role-based access control (RBAC) system for the Red Hat Hybrid Cloud Console.
+- You have the Subscriptions administrator role in the role-based access control (RBAC) system for the [Red Hat Hybrid Cloud Console](https://console.redhat.com).
 
 > [!NOTE]
 > - If you do not have an active Satellite subscription and you have at least one existing subscription manifest for your account, then you can view and export your existing manifests, but the Create new manifest button is inactive until you reactivate your Satellite subscription.
@@ -33,42 +33,40 @@ An authorized Satellite user on a connected network can create, export, delete, 
 > [!NOTE]
 > The organization administrator is a role, so any number of users in one account can have it.
 
-Login to the [Red Hat Customer Portal](https://access.redhat.com) with an account that has Org Admin right
+Login to the [Red Hat Customer Portal](https://access.redhat.com) with an account that has Org Admin right and Click on **Subscriptions** on the top left corner
 
-![customer_portal](/images/1-portal.png)
+![portal](/images/1-portal.png)
 
-Click **Subscriptions** on the top left corner
+Click **Subscription Allocations** 
 
-![subscription](/images/2-subscription.png)
-
-Click **Subscription Allocations**
-
-![allocation](/images/3-allocation.png)
+![allocation](/images/2-allocation.png)
 
 Click **New Subscription Allocation** button
 
-![new](/images/4-new.png)
+![new](/images/3-new.png)
 
 Give the manifest a **name** and choose the **type** (version of Satellite) that will be used within the manifest, then click on **Create** button
 
-![manifest_name](/images/5-manifest_name.png)
+![manifest_name](/images/4-manifest_name.png)
 
 You will be able to see the below output once the manifest is successfully created
 
-![success](/images/6-success.png)
+![success](/images/5-success.png)
 
 Click on **Subscriptions** to add some subscriptions to your manifest and then click on **Add Subscriptions** button to see the available subscriptions that can be added to your manifest.
 
-![add](/images/7-add.png)
+![add](/images/6-add.png)
 
-Select the number of **Entitlements** for the Red Hat Product that you want to add to your Manifest. Scroll down to the bottom of the page and click Submit button.
+Select the number of **Entitlements** for the Red Hat Product that you want to add to your Manifest. Scroll down to the bottom of the page and click **Submit** button.
 
 > [!NOTE]
 > You can use filter to search or manually browse the required subscriptions.
 
-![available](/images/8-available.png)
+![available_1](/images/7-available_1.png)
 
-You will be able to see the success message once all the Product Entitlements are added successfully to your manifest. You can now click Export Manifest button button to download the Manifest
+![available_2](/images/8-available_2.png)
+
+You will be able to see the success message once all the Product Entitlements are added successfully to your manifest. You can now click **Export Manifest** button to download the Manifest
 
 ![final](/images/9-final.png)
 
@@ -93,11 +91,13 @@ Click on **browse** and select the downloaded Manifest from the path to start im
 
 ![browse](/images/13-browse.png)
 
-![importing](/images/14-importing.png)
+![selecting](/images/14-selecting.png)
+
+![importing](/images/15-importing.png)
 
 You will see the subscriptions once your manifest is imported
 
-![final_subscription](/images/15-final_subscription.png)
+![final_subscription](/images/16-final_subscription.png)
 
 ## References
 
