@@ -78,8 +78,8 @@ Open a browser, enter the Red Hat Satellite Server URL - https://satellite.examp
 
 Enter Credentials and click Log In button
 
-- Username: admin
-- Password: redhat
+- **Username**: admin
+- **Password**: redhat
 
 ![dashboard](/images/11-dashboard.png)
 
