@@ -83,7 +83,7 @@ Enter Credentials and click Log In button
 
 ![dashboard](/images/11-dashboard.png)
 
-Click on the **Content > Subscriptions > Import a Manifest**
+Navigate to **Content > Subscriptions > Import a Manifest**
 
 ![import](/images/12-import.png)
 
