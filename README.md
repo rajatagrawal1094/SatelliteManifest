@@ -43,7 +43,7 @@ Click **Subscription Allocations**
 
 Click **New Subscription Allocation** button
 
-![new](/images/3-new.png)
+![new-subscription](/images/3-new_subscription.png)
 
 Give the manifest a **name** and choose the **type** (version of Satellite) that will be used within the manifest, then click on **Create** button
 
