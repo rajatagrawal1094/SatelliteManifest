@@ -53,7 +53,7 @@ You will be able to see the below output once the manifest is successfully creat
 
 ![success](/images/5-success.png)
 
-Click on **Subscriptions** to add some subscriptions to your manifest and then click on **Add Subscriptions** button to see the available subscriptions that can be added to your manifest.
+Click on **Subscriptions** to list/add some subscriptions to your manifest and then click on **Add Subscriptions** button to see the available subscriptions that can be added to your manifest.
 
 ![add](/images/6-add.png)
 
