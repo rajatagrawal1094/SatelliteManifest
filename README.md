@@ -1,5 +1,16 @@
 # Creating and Uploading Satellite Manifest
 
+[Red Hat Satellite Learning Series Main Menu](https://github.com/rajatagrawal1094/RedHatSatellite)
+
+## Table of Contents
+- [Introduction](#introduction)
+- [What is Manifest?](#introducing-manifest)
+- [Creating a Manifest from Red Hat Hybrid Cloud Console](#prerequisites-to-create-a-manifest-from-red-hat-hybrid-cloud-console)
+- [Creating a Manifest using Red Hat Customer Portal](#creating-a-manifest-using-red-hat-customer-portal)
+- [Importing the Manifest in Red Hat Satellite](#importing-the-manifest-in-red-hat-satellite)
+- Summary(#summary)
+- [Summary](#summary)
+
 ## Introducing Manifest
 
 A manifest is a set of encrypted files containing information about your subscriptions.
@@ -95,7 +106,7 @@ Click on **browse** and select the downloaded Manifest from the path to start im
 
 ![importing](/images/15-importing.png)
 
-You can also perform the above steps using CLI
+You can optionally run the below command to import the Manifest
 
 ```console
 [root@localhost ~]# hammer subscription upload --file <path_to_file> --organization <organization_name>
@@ -107,7 +118,7 @@ You will see the subscriptions once your manifest is imported
 
 ![final_subscription](/images/17-final_subscription.png)
 
-You can run the below command to list the available subscriptions on the CLI
+You can optionally run the below command to list the available subscriptions on the CLI
 
 ```console
 [root@localhost ~]# hammer subscription list --organization <organization_name>
