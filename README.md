@@ -48,7 +48,7 @@ An authorized Satellite user on a connected network can create, export, delete, 
 > [!NOTE]
 > The organization administrator is a role, so any number of users in one account can have it.
 
-Login to the [Red Hat Customer Portal](https://access.redhat.com) with an account that has Org Admin right and Click on **Subscriptions** on the top left corner
+Log in to the [Red Hat Customer Portal](https://access.redhat.com) with an account that has Org Admin right and Click on **Subscriptions** on the top left corner
 
 ![portal](/images/1-portal.png)
 
@@ -68,7 +68,7 @@ You will be able to see the below output once the manifest is successfully creat
 
 ![success](/images/5-success.png)
 
-Click on **Subscriptions** to list/add some subscriptions to your manifest and then click on **Add Subscriptions** button to see the available subscriptions that can be added to your manifest.
+Click **Subscriptions** to view or add entitlements and then click on **Add Subscriptions** button to see the available subscriptions that can be added to your manifest.
 
 ![add](/images/6-add.png)
 
@@ -102,7 +102,7 @@ Navigate to **Content > Subscriptions > Import a Manifest**
 
 ![import](/images/12-import.png)
 
-Click on **browse** and select the downloaded Manifest from the path to start importing the Manifest
+Click on **Browse** and select the downloaded Manifest from the path to start importing the Manifest
 
 ![browse](/images/13-browse.png)
 
