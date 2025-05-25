@@ -5,7 +5,7 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [What is Manifest?](#introducing-manifest)
-- [Creating a Manifest from Red Hat Hybrid Cloud Console](#prerequisites-to-create-a-manifest-from-red-hat-hybrid-cloud-console)
+- [Prerequisites for creating a Manifest from Red Hat Hybrid Cloud Console](#prerequisites-to-create-a-manifest-from-red-hat-hybrid-cloud-console)
 - [Creating a Manifest using Red Hat Customer Portal](#creating-a-manifest-using-red-hat-customer-portal)
 - [Importing the Manifest in Red Hat Satellite](#importing-the-manifest-in-red-hat-satellite)
 - [Summary](#summary)
@@ -111,6 +111,9 @@ Click on **Browse** and select the downloaded Manifest from the path to start im
 ![importing](/images/15-importing.png)
 
 You can optionally run the below command to import the Manifest
+
+> [!NOTE]
+> This CLI method is useful for automating manifest uploads in scripted or headless environments.
 
 ```console
 [root@localhost ~]# hammer subscription upload --file <path_to_file> --organization <organization_name>
