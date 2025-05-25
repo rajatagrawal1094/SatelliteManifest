@@ -95,9 +95,23 @@ Click on **browse** and select the downloaded Manifest from the path to start im
 
 ![importing](/images/15-importing.png)
 
+You can also perform the above steps using CLI
+
+```console
+[root@localhost ~]# hammer subscription upload --file <path_to_file> --organization <organization_name>
+```
+
+![subscription_upload_cli](/images/16-subscription_upload_cli.png)
+
 You will see the subscriptions once your manifest is imported
 
-![final_subscription](/images/16-final_subscription.png)
+![final_subscription](/images/17-final_subscription.png)
+
+You can run the below command to list the available subscriptions on the CLI
+
+```console
+[root@localhost ~]# hammer subscription list --organization <organization_name>
+```
 
 ## References
 
