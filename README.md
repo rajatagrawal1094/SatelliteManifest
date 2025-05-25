@@ -10,6 +10,11 @@
 - [Importing the Manifest in Red Hat Satellite](#importing-the-manifest-in-red-hat-satellite)
 - [Summary](#summary)
 
+## Introduction
+
+Red Hat Satellite uses a subscription manifest to manage and allocate product entitlements across your organization’s systems. This guide is intended for Red Hat Satellite administrators working in a connected network environment. By following this tutorial, you will learn how to create a subscription manifest using the Red Hat Customer Portal, and then upload it to your Satellite Server through the web UI and command-line interface. This process enables content synchronization and subscription management for your Red Hat Enterprise Linux infrastructure.
+
+
 ## Introducing Manifest
 
 A manifest is a set of encrypted files containing information about your subscriptions.
@@ -122,6 +127,17 @@ You can optionally run the below command to list the available subscriptions on 
 ```console
 [root@localhost ~]# hammer subscription list --organization <organization_name>
 ```
+
+## Summary
+
+By completing these steps, you have learned how to create and upload a Satellite subscription manifest in a connected network environment. You:
+
+- Logged into the Customer Portal to generate a subscription manifest.
+- Added relevant product entitlements to the manifest.
+- Exported and downloaded the manifest file.
+- Uploaded the manifest to Red Hat Satellite via the web interface and optionally via the CLI.
+
+Your Red Hat Satellite Server is now ready to manage subscriptions and synchronize content based on the imported entitlements.
 
 ## References
 
