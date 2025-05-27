@@ -21,6 +21,8 @@ A Manifest is a set of encrypted files containing information about your subscri
 
 You can use a Manifest to import your subscriptions into Red Hat Satellite. After the Manifest is imported, you can use it to manage RHEL systems and synchronize content.
 
+In a connected Satellite environment, the Manifest acts as a bridge between your Red Hat subscription account and Satellite. It defines what products you can synchronize, how many entitlements are available, and how your organization consumes subscriptions across various environments (Dev, Test, Prod). Without a Manifest, Satellite cannot mirror content or validate entitlements.
+
 > [!NOTE]
 > Users on a connected network create and manage their Subscription Manifests on the [Red Hat Hybrid Cloud Console](https://console.redhat.com), however, users on a disconnected network must use the [Red Hat Customer Portal](https://access.redhat.com).
 
