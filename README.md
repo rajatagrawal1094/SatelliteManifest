@@ -116,7 +116,7 @@ You can optionally run the below command to import the Manifest
 > This CLI method is useful for automating Manifest uploads in scripted or headless environments.
 
 ```console
-[root@localhost ~]# hammer subscription upload --file <path_to_file> --organization <organization_name>
+[ragrawal@satellite ~]$ hammer subscription upload --file <path_to_file> --organization <organization_name>
 ```
 
 ![subscription_upload_cli](/images/16-subscription_upload_cli.png)
@@ -128,7 +128,7 @@ You will see the subscriptions once your Manifest is imported
 You can optionally run the below command to list the available subscriptions on the CLI
 
 ```console
-[root@localhost ~]# hammer subscription list --organization <organization_name>
+[ragrawal@satellite ~]$ hammer subscription list --organization <organization_name>
 ```
 
 ## Summary
